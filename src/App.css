@@ -1,9 +1,8 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
+  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
+  pointer-events: none;
 }
 
 .App-header {
@@ -18,5 +17,77 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #61dafb;
 }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.counter  {
+  position: absolute;
+  top: 2%;
+  right:10%;
+  font-size: 1rem;
+  color: darkgray;
+}
+
+.header {
+  width: 100vw;
+  height: 20vh;
+  background-color: blue;
+
+}
+
+.home {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 2rem;
+  color: black;
+
+}
+
+.name {
+  font-size: 3rem;
+  position: absolute;
+  left: 15%;
+  top: 22%;
+  font-weight: bold
+}
+
+.info {
+  font-size: 2rem;
+  position: absolute;
+  left: 30%;
+  top: 35%;
+  font-weight: bold;
+}
+
+
+.favorites {
+  font-size: 2rem;
+  position: absolute;
+  left: 30%;
+  top: 42%;
+}
+
+.button1 {
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  font-size: 1rem;
+}
+
+.button2 {
+  position: absolute;
+  top: 75%;
+  right: 15%;
+  font-size: 1rem;
+}
+
